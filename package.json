@@ -1,0 +1,16 @@
+{
+  "name": "beeceptor-http-callout-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright E2E automation for Beeceptor HTTP Callout workflow",
+  "scripts": {
+    "login": "node login.js",
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0"
+  }
+}
